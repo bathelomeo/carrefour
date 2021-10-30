@@ -2,7 +2,7 @@ print('Welcome to Carrefour')
 Give = input('You can only buy the things in this categories, Agree?:')
 if Give == 'Ok':
     print('Lets Continue')
-Question = input('Do you want to buy Vegetables , Fruits , Snacks , Bisquits')
+Question = input('Do you want to buy something in Vegetables , Fruits , Snacks , Bisquits and only that.')
 if Question == 'Yes':
     print('Great')
 elif Question == 'No':
@@ -47,7 +47,7 @@ print(price)
 Snacks =input('Do you want to know what is in Snack')
 
 if Snacks == 'Yes':
-    print('In Fruits There is: Stix , Kra curls , Banana , Kiwi')
+    print('In Fruits There is: Stix , Kra curls , Tamu Tamu , Crakles ')
 elif Snacks == 'No':
     print('Fine')
 Snocks = input ('So what do you want to buy in Snacks')
@@ -80,3 +80,4 @@ elif Bosquits== 'Nice':
 elif Bosquits == 'Wafers':
     price = 0.70
 print(price)
+print('Everything that is one number or is mary land cookies price is actually a 0 in there')
