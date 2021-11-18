@@ -8,10 +8,10 @@ if greeting == 'Evening':
 
 if greeting== 'Morning':
     print('Good morning')
-Name = input('May i ask what is you name')
+Name = input('May I ask what is you name')
 print('Hello' ' '+ Name)
 
-print('lets go with a security check')
+print("Let's go with a security check")
 
 security = input('hey other guard can you see any guns or bombs')
 
@@ -31,6 +31,7 @@ if Troley== 'Thank you':
     print('Your Welcome')
 else:
     print('Ahhhhh Ok')
+
 pay = input('What Will you be paying with')
 if pay=='Mpesa':
     print('Ahhh Ok')
@@ -42,10 +43,10 @@ else:
     print('Mrs or Mr sorry but you will have to return all this things')
 parking = input('What Will you be paying with')
 if parking=='Mpesa':
-    print('Ahhh Ok')
+    print('Nice!')
 elif parking=='Safaricom':
-    print('Ahhhh Ok')
+    print('Lovely')
 elif parking=='Cash':
     print('Ahhhh Ok')
 print('Please insert your card')
-print('You have 30 minutes to exit the premisise')
+print('You have 30 minutes to exit the premise')
